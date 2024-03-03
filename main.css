@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #e3f5b7;
+    font-weight: bold;
+}
+
+#ImagemToDoList img {
+    box-sizing: border-box;
+    height: 100px;
+    width: 20%;
+    margin-top: 30px;
+    
+}
+
+input {
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno ao focar */
+    background-color: transparent; /* Define o fundo como transparente */
+    border-bottom: 1px solid black; /* Adiciona uma linha na parte inferior */
+    margin-top: 30px;
+    width: 400px;
+    font-size: 25px;
+}
+ul {
+    margin-top: 30px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.fa-trash {
+    color: rgb(204, 24, 24);
+    cursor: pointer;
+    
+}
+
+.fa-trash:hover{
+    color: #f30909;
+}
+.fa-check {
+    color: #06ac1c;
+    cursor: pointer;
+}
+.fa-check:hover{
+    color: #0fbb09;
+}
+ul .checked {
+    color: #d46700;
+    text-decoration: line-through;
+    transition: 0.2s;
+    
+}
